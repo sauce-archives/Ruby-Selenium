@@ -3,7 +3,7 @@ require "selenium/webdriver"
 module SauceDriver
   class << self
     def sauce_endpoint
-      "http://ndmanvar:69718572-dfdd-438b-b4ac-b177f59f68ee@ondemand.saucelabs.com:80/wd/hub"
+      "http://YOUR_SAUCE_USERNAME:YOUR_SAUCE_ACCESS_KEY@ondemand.saucelabs.com:80/wd/hub"
     end
  
     def caps
