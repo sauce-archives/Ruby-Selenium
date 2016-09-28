@@ -7,7 +7,7 @@ caps = {
 }
 
 driver = Selenium::WebDriver.for(:remote,
-	:url => "http://YOUR_SAUCE_USERNAME:YOUR_SAUCE_ACCESS_KEY@ondemand.saucelabs.com:80/wd/hub",
+	:url => "https://YOUR_SAUCE_USERNAME:YOUR_SAUCE_ACCESS_KEY@ondemand.saucelabs.com:443/wd/hub",
 	:desired_capabilities => caps)
 
 driver.get('http://saucelabs.com/test/guinea-pig')
